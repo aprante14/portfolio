@@ -30,3 +30,6 @@ npm install react-icons
 npm install react-router-dom
 npm install react-bootstrap
 npm start
+
+
+você pode testar abrir no [https://portfolio-six-liard-51.vercel.app] -> só não está conclúido ainda.
