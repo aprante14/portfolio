@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -56,8 +57,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem-vindo ao meu portfólio!</span>
-                <h1>{`Olá, eu sou a Larissa!`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Eu estudo análise e desenvolvimento de sistemas na FASIPE, estou atualmente no primeiro de 5 semestres, esse site será por hora meu portfolio pessoal, deslize a página para ver mais um pouco sobre o que eu faço:</p>
+                <h1>{`Olá, eu sou a Ana Julia!`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Eu estudo análise e desenvolvimento de sistemas na FASIPE, estou atualmente no 1 semestre, esse site será por hora meu portfolio pessoal, deslize a página para ver mais um pouco sobre o que eu faço:</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

@@ -2,10 +2,9 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
+import projImg1 from "../assets/img/project-img1.svg";
+import projImg2 from "../assets/img/project-img2.svg";
+import projImg3 from "../assets/img/project-img3.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -31,29 +30,21 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Api de MakeUP",
+      title: "Api",
       description: "Estudando API em JS",
-      imgUrl: projImg1,
-      url:"https://github.com/larissa-bonasina/apimakeup"
+      imgUrl: projImg1
     },
     {
-      title: "Calculadora",
-      description: "Aula de HTML e CSS",
+      title: "site de musica",
+      description: "Aula de HTML, CSS e Bootstrap",
       imgUrl: projImg2,
-      url:"https://github.com/larissa-bonasina/calculadora"
     },
     {
-      title: "Jogo da Velha",
-      description: "Ambientação do CodePen",
+      title: "site de noticias",
+      description: "Aula de HTML, CSS e JS",
       imgUrl: projImg3,
-      url:"https://github.com/larissa-bonasina/jogo-da-velha"
     },
-    {
-      title: "Ghibli site",
-      description: "Primeiro site completo feito",
-      imgUrl: projImg4,
-      url:"https://github.com/larissa-bonasina/ghibli"
-    },
+    
   ]
   
   return (
