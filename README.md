@@ -32,4 +32,4 @@ npm install react-bootstrap
 npm start
 
 
-você pode testar abrir no [https://portfolio-six-liard-51.vercel.app] -> só não está conclúido ainda.
+você pode testar abrir no [https://portfolio-sandy-pi-95.vercel.app/] -> só não está conclúido ainda.
